@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Welcome to Digging Deeper"
 date: 2026-09-23
 ---

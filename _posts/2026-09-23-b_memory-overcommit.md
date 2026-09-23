@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "AHV Internals Blog: Memory Overcommit"
 date: 2026-09-23
 ---
