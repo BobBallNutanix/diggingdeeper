@@ -3,8 +3,7 @@ layout: default
 title: "Welcome to Digging Deeper"
 date: 2026-09-23
 ---
-# Welcome!
-
+# Welcome
 Welcome to **Digging Deeper** where we dig into hypervisor architecture, memory management, and virtualisation internals. This blog will have a focus on AHV and it's surrounding ecosystem.
 
 To start the blog, we'll be reposting some of the existing blogs that take some deep dives into AHV.
