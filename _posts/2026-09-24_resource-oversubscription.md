@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "AHV CPU and Memory overheads"
-date: 2026-09-23
+date: 2026-09-24
 ---
 # AHV CPU and Memory overheads
 One question I've heard recently is how to calculate how much overhead AHV adds on VMs - both from a CPU and Memory perspective.  Memory is perhaps the easier one to answer. There are a set of overheads that all hypervisors (in fact all operating systems) incur such as to set up the page tables to access memory, then there's the memory needed to run AHV, and potentially some additional optional services. There are also per-VM overheads which depend on the number and type of virtual devices, but the number of factors that go into the precise VM overhead is much larger. Thankfully the VM overheads are often very small (of the order of 50MB per VM) and so while these overheads do add up, it might only be seen on hosts with large numbers of VMs.
